@@ -1,0 +1,25 @@
+<style>
+    
+    #question-pallet{
+    font-weight: bold;
+        font-size:20px;
+    direction:rtl;
+    }
+    button{
+        width:65px;
+        height:55px;
+        padding:10px 25px;
+        margin: 5px 5px 7px 9px;
+    font-family :fantasy;
+        border-radius: 10px;
+        border:none;
+        background-color: #455a64;
+        color:#fff;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    em{
+        padding:150px;
+        border-width: thick;
+    }
+</style>
