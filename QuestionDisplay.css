@@ -1,0 +1,71 @@
+<style>
+    .button
+    {
+        font-size: 20px;
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        padding: 15px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        border: 2px solid #0000ff;
+        background-color: white;
+    }
+    .button:hover
+    {
+        background-color: #0000ff;
+        color: white;
+    }
+    h1
+    {
+        text-align: center;
+        padding-top: 6px;
+    }
+    .Time
+    {
+        width: 168px;
+        height: 60px;
+        margin-top: -60px;
+        margin-left: 953px;
+        background-color: whitesmoke;
+    }
+    .ExamF
+    {
+        width: 148px;
+        height: 60px;
+        margin-top: -60px;
+        margin-left: 1124px;
+        background-color: whitesmoke;
+    }
+    .profilePhoto
+    {
+        width: 75px;
+        height: 60px;
+        margin-top: -643px;
+        margin-left: 1275px;
+        background-color: whitesmoke;
+    }
+.fullCard
+{
+width: 950px;
+height: 60px;
+    margin-top: -2px;
+    background-color: whitesmoke;
+    position: relative;
+}
+    .boxCard
+    {
+        width: 950px;
+        height: 580px;
+        margin-top: 3px;
+        background-color: whitesmoke;
+    }
+    .boxCard1
+    {
+        width: 397px;
+        height: 580px;
+        margin-top: -580px;
+        margin-left: 953px;
+        background-color: whitesmoke;
+    }
+</style>
