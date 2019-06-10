@@ -1,5 +1,114 @@
 <style>
-    .button
+    .Scrollbox{
+        height: 415px;
+        width: 385px;
+        background-color: white;
+        margin-left: 959px;
+        position: absolute;
+        margin-top: 35px;
+        overflow-y: scroll;
+    }
+    
+    p{
+        margin-top: 3px;
+        text-align: center;
+        font-size: 20px;
+        
+    }
+    .markButton .button3 {
+        font-size: 13px;
+        float: left;
+        margin-top: -33px;
+        background-color: white;
+        position: relative;
+        padding: 7px 11px;
+        margin-left: 35px;
+        border-radius: 3px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+   .inline-buttons .button1{
+        
+       text-align: center;
+        border: none;
+        border-radius: 2px;
+       position: relative;
+        margin-left: 575px;
+        margin-top: 19px;
+       float: left;
+        font-size: 14px;
+        display: inline;
+        padding: 9px 15px;
+        background-color: dodgerblue;
+        overflow: hidden;
+       -webkit-transition-duration: 0.4s;
+       transition-duration: none;
+       text-decoration: none;
+       cursor: pointer  ;
+    }
+   .inline-buttons .button1:after{
+        content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+       padding-top: 300%;
+       padding-left: 350%;
+       margin-left: -16px ! important;
+       margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s;
+    }
+   .inline-buttons .button1:active:after {
+       padding: 0;
+       margin: 0;
+        opacity: 1;
+        transition: 0s;
+    }
+   .inline-buttons .button2{
+        font-size: 10px;
+       text-align: center;
+       position: relative;
+        overflow: hidden;
+        border: none;
+        border-radius: 2px;
+       float: left;
+        margin-left: 775px;
+        margin-top: -35px;
+        font-size: 14px;
+        display: inline;
+        padding: 9px 15px;
+        background-color: dodgerblue;
+       -webkit-transition-duration: 0.4s;
+       transition-duration: none;
+       text-decoration: none;
+       cursor: pointer;
+    }
+    .inline-buttons .button2:after {
+      content: "";
+        background: #f1f1f1;
+        display: block;
+        position: absolute;
+       padding-top: 300%;
+       padding-left: 350%;
+       margin-left: -16px ! important;
+       margin-top: -120%;
+        opacity: 0;
+        transition: all 0.8s;  
+    }
+    .inline-buttons .button2:active:after {
+        padding: 0;
+       margin: 0;
+        opacity: 1;
+        transition: 0s;
+    }
+    .whiteBox{
+        background-color: white;
+        height: 250px;
+        width: 944px;
+        margin-left: 3px;
+        margin-top: 265px;
+    }
+      .button
     {
         font-size: 20px;
         width: 100%;
@@ -16,18 +125,20 @@
         background-color: #0000ff;
         color: white;
     }
-    h1
+    h2
     {
         text-align: center;
         padding-top: 6px;
+        font-size: 25px;
     }
-    .Time
+    .Timer
     {
         width: 168px;
         height: 60px;
         margin-top: -60px;
         margin-left: 953px;
-        background-color: whitesmoke;
+        background-color: white;
+        position: relative;
     }
     .ExamF
     {
@@ -35,7 +146,7 @@
         height: 60px;
         margin-top: -60px;
         margin-left: 1124px;
-        background-color: whitesmoke;
+        background-color: white;
     }
     .profilePhoto
     {
@@ -67,5 +178,22 @@ height: 60px;
         margin-top: -580px;
         margin-left: 953px;
         background-color: whitesmoke;
+        position: absolute;
+    }
+     .CollegeName
+    {
+        color: black;
+        position: absolute;
+        font-family: serif;
+        font-weight: 600;
+        font-size: 33px;
+    margin-top: -1px;
+    }
+    .container
+    {
+        padding-top: 050px;
+        width: 100%;
+        display: grid;
+        font-size: 30px;
     }
 </style>
