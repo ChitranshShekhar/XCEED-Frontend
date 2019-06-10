@@ -1,0 +1,55 @@
+<style>
+#mk{
+        text-align: right;
+        margin: 3px 95px 17px 15px;
+        
+    }
+    .mark{
+    background-color: aliceblue;
+        color:black;
+        width: 150px;
+        padding: 10px 20px ;
+        font-weight:lighter;
+        font-size: 15px;
+    }
+
+
+#av{
+        text-align: right;
+        padding-top: 40px;
+        padding-right: 250px;    
+}
+    .bn{
+        width:40px;
+        height: 40px;
+    }
+    #rit{
+        text-align: right;
+        padding-right: 6%;
+        margin-top:  -85px;
+        
+    }
+    .nm{
+        width:40px;
+        height: 40px;
+        
+        
+    }
+    .ui{
+        width: 40px;
+        height: 40px;
+    }
+    #pop{
+        text-align: right;
+        padding-right:250px;
+    }
+    #yui{
+     text-align: right;
+        margin-top:-85px;
+        padding-right: 6%;
+    }
+    .tyi{
+        width: 40px;
+        height: 40px;
+    }
+    </style
