@@ -1,4 +1,77 @@
 <style>
+    .a{
+        padding-left: 70px;
+        margin-top: -30px;
+    }
+    .mrk{
+        padding-left: 265px;
+        margin-top: -17px;
+    }
+    #answered{
+      width: 35px;
+        height: 35px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        background-image: linear-gradient(to top,rgba(124,252,0), rgba(124,252,0,0));
+        margin-left: 22px;
+        background-color: white;
+    }
+    #marked{
+        width: 35px;
+        height: 35px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        margin-left: 150px;
+        margin-top: 20px;
+        background-color: white;
+        background-image: linear-gradient(to top,rgba(0,191,255), rgba(0,191,255,0));
+    }
+    #notAnswered{
+        width: 35px;
+        height: 35px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        background-color: white;
+        background-image: linear-gradient(to top,rgba(255,105,180), rgba(255,105,180,0));
+        margin-left: 150px;
+    }
+    .na{
+        padding-left: 265px;
+        margin-top: -19px;
+    }
+    .nv{
+        padding-left: 70px;
+        margin-top: -27px;
+    }
+    #notVisited{
+        margin-top: 420px;
+        margin-left: 22px;
+        background-color: beige;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        width: 35px;
+        height: 35px;
+    }
+    .btn-grp button{
+        width: 20px;
+        height: 20px;
+        background-color: beige;
+        position: relative;
+        cursor: pointer;
+        border-radius: 4px;
+     padding: 20px 30px;
+        margin: 5px 5px 2px 1px;
+        display: inline-block;
+        font-size: 20px;
+        border: ;
+        box-shadow: 0 3px #999;
+    }
+    .btn-grp button:hover{background-color: beige}
+    .btn-grp button:active{
+        background-color: beige;
+        box-shadow: 0 1px #999;
+        transform: translateY(4px);
+    }
     .Scrollbox{
         height: 415px;
         width: 385px;
@@ -27,7 +100,7 @@
         overflow: hidden;
         cursor: pointer;
     }
-   .inline-buttons .button1{
+   .inline-buttons #previous{
         
        text-align: center;
         border: none;
@@ -46,7 +119,7 @@
        text-decoration: none;
        cursor: pointer  ;
     }
-   .inline-buttons .button1:after{
+   .inline-buttons #previous:after{
         content: "";
         background: #f1f1f1;
         display: block;
@@ -58,13 +131,13 @@
         opacity: 0;
         transition: all 0.8s;
     }
-   .inline-buttons .button1:active:after {
+   .inline-buttons #previous:active:after {
        padding: 0;
        margin: 0;
         opacity: 1;
         transition: 0s;
     }
-   .inline-buttons .button2{
+   .inline-buttons #next{
         font-size: 10px;
        text-align: center;
        position: relative;
@@ -83,7 +156,7 @@
        text-decoration: none;
        cursor: pointer;
     }
-    .inline-buttons .button2:after {
+    .inline-buttons #next:after {
       content: "";
         background: #f1f1f1;
         display: block;
@@ -95,7 +168,7 @@
         opacity: 0;
         transition: all 0.8s;  
     }
-    .inline-buttons .button2:active:after {
+    .inline-buttons #next:active:after {
         padding: 0;
        margin: 0;
         opacity: 1;
@@ -108,7 +181,7 @@
         margin-left: 3px;
         margin-top: 265px;
     }
-      .button
+      .button1
     {
         font-size: 20px;
         width: 100%;
@@ -120,7 +193,7 @@
         border: 2px solid #0000ff;
         background-color: white;
     }
-    .button:hover
+    .button1:hover
     {
         background-color: #0000ff;
         color: white;
@@ -197,3 +270,4 @@ height: 60px;
         font-size: 30px;
     }
 </style>
+   
